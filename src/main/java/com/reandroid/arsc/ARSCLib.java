@@ -31,7 +31,7 @@ public class ARSCLib {
     }
     public static String getRepo(){
         Properties properties=getProperties();
-        return properties.getProperty("lib.repo", "https://github.com/REAndroid");
+        return properties.getProperty("lib.repo", "");
     }
     public static String getDescription(){
         Properties properties=getProperties();
